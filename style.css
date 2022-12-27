@@ -1,0 +1,40 @@
+
+body>div{
+    animation: move;
+    animation-duration: 0.4s;
+}
+
+
+@keyframes move{
+    from{
+        transform:translateY(-50%) ;
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+   
+}
+
+
+
+.btn1{
+    background: linear-gradient(to right, #000000, #434343);
+    color: #F0F3B0;
+    border-radius: 10px;
+    border: none;
+    font-weight: 100 !important;
+    letter-spacing: 1px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 20px;
+    position: absolute;
+    top :50%;
+    left: 50%;
+}
+
+
+.btn1:hover{
+    background: linear-gradient(to right, #870000, #190a05);
+}
